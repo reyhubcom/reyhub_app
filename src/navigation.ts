@@ -24,15 +24,15 @@ export const headerData = {
       ],
     },
     {
-      text: 'DeFi',
+      text: 'Exchange',
       links: [
         {
-          text: 'Solana DeFi ',
-          href: getPermalink('/home/sol'),
+          text: 'Saka Exchange ',
+          href: getPermalink('/saka'),
         },
         {
-          text: 'Ethereum DeFi',
-          href: getPermalink('/home/eth'),
+          text: 'Space Exchange',
+          href: getPermalink('/space'),
         },
         {
           text: 'Binance DeFi',
