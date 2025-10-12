@@ -15,7 +15,7 @@ export const headerData = {
         },
         {
           text: 'Stake ETH',
-          href: getPermalink('/homes/stake'),
+          href: getPermalink('/stake'),
         },
         {
           text: 'Personal',
@@ -32,7 +32,7 @@ export const headerData = {
         },
         {
           text: 'Space Exchange',
-          href: getPermalink('/space'),
+          href: getPermalink('#'),
         },
         {
           text: 'Binance DeFi',
@@ -90,7 +90,7 @@ export const headerData = {
       links: [
         {
           text: 'Crypto Bubbles',
-          href: getPermalink( '/home/bubble'),
+          href: getPermalink( '/bubble'),
         },
         {
           text: 'Stablecoins',
