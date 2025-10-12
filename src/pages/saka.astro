@@ -47,7 +47,68 @@ const metadata = {
     ]}
   >
     <Fragment slot="title">
-     <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-5" lcw-base="USD" lcw-color-tx="#0693e3" lcw-marquee-1="coins" lcw-marquee-2="movers" lcw-marquee-items="30" ></div>
+     <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/" rel="noopener nofollow" target="_blank"><span class="white-text">Stake ETH</span></a><span class="trademark">&Earn Rewards</span></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  {
+  "symbols": [
+    {
+      "proName": "COINBASE:BTCUSD",
+      "title": ""
+    },
+    {
+      "proName": "COINBASE:ETHUSD",
+      "title": ""
+    },
+    {
+      "proName": "COINBASE:SOLUSD",
+      "title": ""
+    },
+    {
+      "proName": "BINANCE:BNBUSD",
+      "title": ""
+    },
+    {
+      "proName": "COINBASE:ATOMUSD",
+      "title": ""
+    },
+    {
+      "proName": "COINBASE:AVAXUSD",
+      "title": ""
+    },
+    {
+      "proName": "CRYPTOCAP:NEAR",
+      "title": ""
+    },
+    {
+      "proName": "BINANCE:TRXUSDT",
+      "title": ""
+    },
+    {
+      "proName": "COINBASE:XTZUSD",
+      "title": ""
+    },
+    {
+      "proName": "COINBASE:CBETHETH",
+      "title": ""
+    },
+    {
+      "proName": "COINBASE:OSMOUSD",
+      "title": ""
+    }
+  ],
+  "colorTheme": "dark",
+  "locale": "en",
+  "largeChartUrl": "",
+  "isTransparent": true,
+  "showSymbolLogo": true,
+  "displayMode": "compact"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
     </Fragment>
 
     <Fragment slot="subtitle">
