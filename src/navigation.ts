@@ -31,8 +31,8 @@ export const headerData = {
           href: getPermalink('/saka'),
         },
         {
-          text: 'Space Exchange',
-          href: getPermalink('#'),
+          text: 'Bridge Crypto',
+          href: getPermalink('/bridge'),
         },
         {
           text: 'Binance DeFi',
