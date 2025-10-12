@@ -102,7 +102,7 @@ export const headerData = {
         },
         {
           text: 'Lite Lend',
-          href: getPermalink('/home/lite'),
+          href: getPermalink('/lite'),
         },
         {
           text: 'Tag Page',
