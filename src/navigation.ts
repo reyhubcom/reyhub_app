@@ -94,7 +94,7 @@ export const headerData = {
         },
         {
           text: 'Stablecoins',
-          href: getPermalink( '/home/stable'),
+          href: getPermalink( '/stable'),
         },
         {
           text: 'MEME Coins',
