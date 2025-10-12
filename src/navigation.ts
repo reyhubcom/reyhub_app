@@ -3,19 +3,19 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Homes',
+      text: 'Staking',
       links: [
         {
-          text: 'SaaS',
-          href: getPermalink('/homes/saas'),
+          text: 'MEME Coins',
+          href: getPermalink('/meme'),
         },
         {
-          text: 'Startup',
-          href: getPermalink('/homes/startup'),
+          text: 'Bitcoin Staking',
+          href: getPermalink('/home/btc'),
         },
         {
-          text: 'Mobile App',
-          href: getPermalink('/homes/mobile-app'),
+          text: 'Stake ETH',
+          href: getPermalink('/homes/stake'),
         },
         {
           text: 'Personal',
@@ -24,44 +24,44 @@ export const headerData = {
       ],
     },
     {
-      text: 'Pages',
+      text: 'DeFi',
       links: [
         {
-          text: 'Features (Anchor Link)',
-          href: getPermalink('/#features'),
+          text: 'Solana DeFi ',
+          href: getPermalink('/home/sol'),
         },
         {
-          text: 'Services',
-          href: getPermalink('/services'),
+          text: 'Ethereum DeFi',
+          href: getPermalink('/home/eth'),
         },
         {
-          text: 'Pricing',
-          href: getPermalink('/pricing'),
+          text: 'Binance DeFi',
+          href: getPermalink('/home/bnb'),
         },
         {
-          text: 'About us',
-          href: getPermalink('/about'),
+          text: 'Polygon DeFi',
+          href: getPermalink('/home/pol'),
         },
         {
-          text: 'Contact',
-          href: getPermalink('/contact'),
+          text: 'Avalanche DeFi',
+          href: getPermalink('/home/avax'),
         },
         {
-          text: 'Terms',
-          href: getPermalink('/terms'),
+          text: 'Arbitrum DeFi',
+          href: getPermalink('/home/arb'),
         },
         {
-          text: 'Privacy policy',
-          href: getPermalink('/privacy'),
+          text: 'View All DeFi',
+          href: getPermalink('#'),
         },
       ],
     },
     {
-      text: 'Landing',
+      text: 'Bridge',
       links: [
         {
-          text: 'Lead Generation',
-          href: getPermalink('/landing/lead-generation'),
+          text: 'Crypto Bridge',
+          href: getPermalink('/home/bridge'),
         },
         {
           text: 'Long-form Sales',
@@ -86,23 +86,23 @@ export const headerData = {
       ],
     },
     {
-      text: 'Blog',
+      text: 'Crypto',
       links: [
         {
-          text: 'Blog List',
-          href: getBlogPermalink(),
+          text: 'Crypto Bubbles',
+          href: getPermalink( '/home/bubble'),
         },
         {
-          text: 'Article',
-          href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
+          text: 'Stablecoins',
+          href: getPermalink( '/home/stable'),
         },
         {
-          text: 'Article (with MDX)',
-          href: getPermalink('markdown-elements-demo-post', 'post'),
+          text: 'MEME Coins',
+          href: getPermalink('/home/meme'),
         },
         {
-          text: 'Category Page',
-          href: getPermalink('tutorials', 'category'),
+          text: 'Lite Lend',
+          href: getPermalink('/home/lite'),
         },
         {
           text: 'Tag Page',
@@ -111,33 +111,33 @@ export const headerData = {
       ],
     },
     {
-      text: 'Widgets',
-      href: '#',
+      text: 'Lending',
+      href: 'https://fluid.io/smart-lending/1' ,target: ' _blank',
     },
   ],
-  actions: [{ text: 'Download', href: 'https://github.com/arthelokyo/astrowind', target: '_blank' }],
+  actions: [{ text: 'APP STAKING', href: 'https://linktr.ee/reystaking', target: '_blank' }],
 };
 
 export const footerData = {
   links: [
     {
-      title: 'Product',
+      title: 'Networks',
       links: [
-        { text: 'Features', href: '#' },
-        { text: 'Security', href: '#' },
-        { text: 'Team', href: '#' },
-        { text: 'Enterprise', href: '#' },
-        { text: 'Customer stories', href: '#' },
-        { text: 'Pricing', href: '#' },
-        { text: 'Resources', href: '#' },
+        { text: 'Ethereum', href: '#' },
+        { text: 'Solana', href: '#' },
+        { text: 'Binance', href: '#' },
+        { text: 'BASE', href: '#' },
+        { text: 'Polygon', href: '#' },
+        { text: 'Cosmos', href: '#' },
+        { text: 'All Networks', href: '/home/crypto' },
       ],
     },
     {
-      title: 'Platform',
+      title: 'MEME Coins',
       links: [
-        { text: 'Developer API', href: '#' },
-        { text: 'Partners', href: '#' },
-        { text: 'Atom', href: '#' },
+        { text: 'Staking BONKS', href: '/home/meme' },
+        { text: 'Staking PEPE', href: '/home/meme' },
+        { text: 'Staking FLOKI', href: '/home/meme' },
         { text: 'Electron', href: '#' },
         { text: 'AstroWind Desktop', href: '#' },
       ],
@@ -166,17 +166,17 @@ export const footerData = {
     },
   ],
   secondaryLinks: [
-    { text: 'Terms', href: getPermalink('/terms') },
-    { text: 'Privacy Policy', href: getPermalink('/privacy') },
+    { text: 'Terms', href: getPermalink('#') },
+    { text: 'Privacy Policy', href: getPermalink('#') },
   ],
   socialLinks: [
     { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
-    { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/arthelokyo/astrowind' },
+    { ariaLabel: 'RSS', icon: 'tabler:rss', href: '#'},
+    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: '#' },
   ],
   footNote: `
-    Made by <a class="text-blue-600 underline dark:text-muted" href="https://github.com/arthelokyo"> Arthelokyo</a> · All rights reserved.
+    Made by <a class="text-blue-600 underline dark:text-muted" href="https://reyhub.com"> Rey</a> 2025 STKN.xyz All Rights Reserved.
   `,
 };
