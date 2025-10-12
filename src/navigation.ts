@@ -32,7 +32,7 @@ export const headerData = {
         },
         {
           text: 'Space Exchange',
-          href: getPermalink('#'),
+          href: getPermalink('/bridge'),
         },
         {
           text: 'Binance DeFi',
