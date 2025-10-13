@@ -28,7 +28,7 @@ export const headerData = {
       links: [
         {
           text: 'Saka Exchange ',
-          href: getPermalink('/saka'),
+          href: getPermalink('/exchange'),
         },
         {
           text: 'Buy Crypto',
