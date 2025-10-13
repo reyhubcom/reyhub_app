@@ -6,12 +6,12 @@ export const headerData = {
       text: 'Staking',
       links: [
         {
-          text: 'MEME Coins',
+          text: 'MEME Staking',
           href: getPermalink('/meme'),
         },
         {
           text: 'Bitcoin Staking',
-          href: getPermalink('/home/btc'),
+          href: getPermalink('/btc'),
         },
         {
           text: 'Stake ETH',
