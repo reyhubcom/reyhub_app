@@ -128,7 +128,7 @@ export const footerData = {
         { text: 'Binance', href: '/bnb' },
         { text: 'BASE', href: '#' },
         { text: 'Polygon', href: '#' },
-        { text: 'Cosmos', href: '#' },
+        { text: 'Cosmos', href: '/atom' },
         { text: 'All Networks', href: '/home/crypto' },
       ],
     },
