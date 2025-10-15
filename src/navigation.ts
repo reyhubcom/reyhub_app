@@ -123,9 +123,9 @@ export const footerData = {
     {
       title: 'Networks',
       links: [
-        { text: 'Ethereum', href: '#' },
-        { text: 'Solana', href: '#' },
-        { text: 'Binance', href: '#' },
+        { text: 'Ethereum', href: '/eth' },
+        { text: 'Solana', href: '/sol' },
+        { text: 'Binance', href: '/bnb' },
         { text: 'BASE', href: '#' },
         { text: 'Polygon', href: '#' },
         { text: 'Cosmos', href: '#' },
