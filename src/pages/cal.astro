@@ -1,0 +1,98 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+import Features2 from '~/components/widgets/Features2.astro';
+import Features from '~/components/widgets/Features.astro';
+import Stats from '~/components/widgets/Stats.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import Brands from '~/components/widgets/Brands.astro';
+
+import { YouTube } from 'astro-embed';
+
+const metadata = {
+  title: 'Cosmos Staking',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline=""
+     actions={[
+      {
+        variant: 'secondary',
+        target: '_blank',
+        text: 'Rocket',
+        href: 'https://rocketpool.net/',
+        icon: 'tabler:link',
+      },
+      {
+        variant: 'secondary',
+        target: '_blank',
+        text: 'Lido.Fi',
+        href: 'https://lido.fi/',
+        icon: 'tabler:link',
+      },
+       {
+        variant: 'secondary',
+        target: '_blank',
+        text: 'Velar',
+        href: 'https://velar.com/',
+        icon: 'tabler:link',
+      },
+       {
+        variant: 'secondary',
+        target: '_blank',
+        text: 'Asigna',
+        href: 'hhttps://www.asigna.io/',
+        icon: 'tabler:link',
+      },
+       {
+        variant: 'secondary',
+        target: '',
+        text: 'Exchange',
+        href: '/exchange',
+        icon: 'tabler:link',
+      },
+       
+    ]}
+  >
+    <Fragment slot="title">
+       <span class="hidden sm:inline"></span>  <span
+        class="text-accent dark:text-white"></span
+      >Cosmos Staking
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-5" lcw-base="USD" lcw-color-tx="#0693e3" lcw-marquee-1="coins" lcw-marquee-2="movers" lcw-marquee-items="30" ></div>
+
+<script async src="https://static.coinstats.app/widgets/coin-calculator-widget.js"></script>
+<coin-stats-calculator-widget type="invest" date="2019-09-20" coin-id="bitcoin" locale="en" currency="USD" is-editable="true" selection-color="#00c26f" text-color="#FFFFFF" background="#040422" border-color="rgba(255,255,255,0.15)" font="Outfit, Arial, Helvetica" ></coin-stats-calculator-widget>
+    </Fragment>
+
+    <Fragment slot="image">
+      
+    </Fragment>
+  </Hero>
+
+  <!-- Features2 Widget ************** -->
+
+  <Features2
+    title="Stake Your Cosmos, Earn Reward"
+    subtitle="CStaking Cosmos lets you earn rewards on your ATOM while also helping to secure the network. Create a Kraken account, stake your ATOM and earn up to 22% APR."
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Features2>
+
+  <!-- Stats Widget ****************** -->
+
+ 
+  
+</Layout>

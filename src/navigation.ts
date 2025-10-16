@@ -105,8 +105,8 @@ export const headerData = {
           href: getPermalink('/lite'),
         },
         {
-          text: 'Tag Page',
-          href: getPermalink('astro', 'tag'),
+          text: 'Coin Calculator',
+          href: getPermalink('/cal'),
         },
       ],
     },
