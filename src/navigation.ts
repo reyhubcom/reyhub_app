@@ -126,7 +126,7 @@ export const footerData = {
         { text: 'Ethereum', href: '/eth' },
         { text: 'Solana', href: '/sol' },
         { text: 'Binance', href: '/bnb' },
-        { text: 'BASE', href: '#' },
+        { text: 'AVAX', href: '/avax' },
         { text: 'Polygon', href: '#' },
         { text: 'Cosmos', href: '/atom' },
         { text: 'All Networks', href: '/home/crypto' },
