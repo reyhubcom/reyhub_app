@@ -139,7 +139,7 @@ export const footerData = {
         { text: 'Staking PEPE', href: '/meme' },
         { text: 'Staking FLOKI', href: '/floki' },
         { text: 'Staking Pepeto', href: '/meme' },
-        { text: 'Staking SHIBA INU', href: '/meme' },
+        { text: 'Staking SHIBA INU', href: '/shiba' },
       ],
     },
     {
