@@ -71,8 +71,62 @@ const metadata = {
     <Fragment slot="subtitle">
       <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-5" lcw-base="USD" lcw-color-tx="#0693e3" lcw-marquee-1="coins" lcw-marquee-2="movers" lcw-marquee-items="30" ></div>
 
- <script async src="https://static.coinstats.app/widgets/coin-chart-widget.js"></script>
-<coin-stats-chart-widget type="large" coin-id="binance-coin" width="100%" chart-height="300" currency="USD" locale="en" bg-color="#040422" text-color="#FFFFFF" status-up-color="#00c26f" status-down-color="rgba(232,27,27,1)" buttons-color="rgba(7,7,71,1)" chart-color="#00c26f" chart-gradient-from="rgba(102,101,101,1)" chart-gradient-to="rgba(129,129,124,0)" chart-label-background="rgba(255,255,255,1)" candle-grids-color="rgba(255,255,255,0.1)" border-color="rgba(255,255,255,0.15)" font="Outfit, Arial, Helvetica" btc-color="rgba(234,145,30,1)" eth-color="rgba(117,8,220,1)"></coin-stats-chart-widget>
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/BNBUSD/?exchange=BINANCE" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a><span class="trademark"></span></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
+  {
+  "lineWidth": 2,
+  "lineType": 0,
+  "chartType": "area",
+  "fontColor": "rgb(106, 109, 120)",
+  "gridLineColor": "rgba(15, 15, 15, 0.09)",
+  "volumeUpColor": "rgba(34, 171, 148, 0.5)",
+  "volumeDownColor": "rgba(247, 82, 95, 0.5)",
+  "backgroundColor": "rgba(4, 4, 34, 1)",
+  "widgetFontColor": "#DBDBDB",
+  "upColor": "#22ab94",
+  "downColor": "#f7525f",
+  "borderUpColor": "#22ab94",
+  "borderDownColor": "#f7525f",
+  "wickUpColor": "#22ab94",
+  "wickDownColor": "#f7525f",
+  "colorTheme": "dark",
+  "isTransparent": true,
+  "locale": "en",
+  "chartOnly": false,
+  "scalePosition": "right",
+  "scaleMode": "Normal",
+  "fontFamily": "-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif",
+  "valuesTracking": "1",
+  "changeMode": "price-and-percent",
+  "symbols": [
+    [
+      "BINANCE:BNBUSD|1M"
+    ]
+  ],
+  "dateRanges": [
+    "1d|1",
+    "1m|30",
+    "3m|60",
+    "12m|1D",
+    "60m|1W",
+    "all|1M"
+  ],
+  "fontSize": "10",
+  "headerFontSize": "medium",
+  "autosize": false,
+  "width": "100%",
+  "height": 480,
+  "noTimeScale": false,
+  "hideDateRanges": false,
+  "hideMarketStatus": false,
+  "hideSymbolLogo": false
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
     </Fragment>
 
     <Fragment slot="image">
