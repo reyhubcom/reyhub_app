@@ -143,13 +143,14 @@ export const footerData = {
       ],
     },
     {
-      title: 'Support',
+      title: 'Labs',
       links: [
-        { text: 'Docs', href: '#' },
-        { text: 'Community Forum', href: '#' },
-        { text: 'Professional Services', href: '#' },
-        { text: 'Skills', href: '#' },
-        { text: 'Status', href: '#' },
+        { text: 'Blockberry', href: '#' },
+        { text: 'Suiscan', href: '#' },
+        { text: 'Minascan', href: '#' },
+        { text: 'Zekoscan', href: '#' },
+        { text: 'Starscan', href: '#' },
+        { text: 'Upscan', href: '#' },
       ],
     },
     {
