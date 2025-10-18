@@ -21,6 +21,10 @@ export const headerData = {
           text: 'Stake SOL',
           href: getPermalink('/sol'),
         },
+        {
+          text: 'Stake NEAR',
+          href: getPermalink('/near'),
+        },
       ],
     },
     {
