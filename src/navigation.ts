@@ -61,11 +61,11 @@ export const headerData = {
       ],
     },
     {
-      text: 'Bridge',
+      text: 'DeFi',
       links: [
         {
-          text: 'Crypto Bridge',
-          href: getPermalink('/home/bridge'),
+          text: 'Earn Wuth DeFi',
+          href: getPermalink('/defi'),
         },
         {
           text: 'Long-form Sales',
