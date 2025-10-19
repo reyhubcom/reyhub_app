@@ -72,20 +72,20 @@ export const headerData = {
           href: getPermalink('/dao'),
         },
         {
-          text: 'Click-Through',
-          href: getPermalink('/landing/click-through'),
+          text: 'Blockchain FX',
+          href: getPermalink('/fx'),
         },
         {
           text: 'Product Details (or Services)',
-          href: getPermalink('/landing/product'),
+          href: getPermalink('/#'),
         },
         {
           text: 'Coming Soon or Pre-Launch',
-          href: getPermalink('/landing/pre-launch'),
+          href: getPermalink('/#'),
         },
         {
           text: 'Subscription',
-          href: getPermalink('/landing/subscription'),
+          href: getPermalink('/#'),
         },
       ],
     },
