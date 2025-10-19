@@ -101,8 +101,8 @@ export const headerData = {
           href: getPermalink( '/stable'),
         },
         {
-          text: 'MEME Coins',
-          href: getPermalink('/home/meme'),
+          text: 'Bridge Coins',
+          href: getPermalink('/bridge'),
         },
         {
           text: 'Lite Lend',
