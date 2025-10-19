@@ -28,11 +28,11 @@ export const headerData = {
       ],
     },
     {
-      text: 'Exchange',
+      text: 'Wallets',
       links: [
         {
-          text: 'Saka Exchange ',
-          href: getPermalink('/exchange'),
+          text: 'BTC Wallet ',
+          href: getPermalink('/wallet'),
         },
         {
           text: 'Buy Crypto',
@@ -109,8 +109,8 @@ export const headerData = {
           href: getPermalink('/lite'),
         },
         {
-          text: 'Coin Calculator',
-          href: getPermalink('/cal'),
+          text: 'Exchange',
+          href: getPermalink('/exchange'),
         },
       ],
     },
