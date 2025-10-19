@@ -68,8 +68,8 @@ export const headerData = {
           href: getPermalink('/defi'),
         },
         {
-          text: 'Long-form Sales',
-          href: getPermalink('/landing/sales'),
+          text: 'Staking DAO',
+          href: getPermalink('/dao'),
         },
         {
           text: 'Click-Through',
