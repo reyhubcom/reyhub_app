@@ -103,7 +103,7 @@ export const footerData = {
         { text: 'AVAX', href: '/avax' },
         { text: 'Polygon', href: '#' },
         { text: 'Cosmos', href: '/atom' },
-        { text: 'All Networks', href: '/home/crypto' },
+        { text: 'All Networks', href: '/all' },
       ],
     },
     {
