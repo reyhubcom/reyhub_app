@@ -36,28 +36,9 @@ export const headerData = {
         },
         {
           text: 'Buy Crypto',
-          href: getPermalink('/buy'),
+          href: getPermalink('/exchange'),
         },
-        {
-          text: 'Binance DeFi',
-          href: getPermalink('/home/bnb'),
-        },
-        {
-          text: 'Polygon DeFi',
-          href: getPermalink('/home/pol'),
-        },
-        {
-          text: 'Avalanche DeFi',
-          href: getPermalink('/home/avax'),
-        },
-        {
-          text: 'Arbitrum DeFi',
-          href: getPermalink('/home/arb'),
-        },
-        {
-          text: 'View All DeFi',
-          href: getPermalink('#'),
-        },
+        
       ],
     },
     {
