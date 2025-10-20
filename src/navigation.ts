@@ -75,18 +75,7 @@ export const headerData = {
           text: 'Blockchain FX',
           href: getPermalink('/fx'),
         },
-        {
-          text: 'Product Details (or Services)',
-          href: getPermalink('/#'),
-        },
-        {
-          text: 'Coming Soon or Pre-Launch',
-          href: getPermalink('/#'),
-        },
-        {
-          text: 'Subscription',
-          href: getPermalink('/#'),
-        },
+        
       ],
     },
     {
