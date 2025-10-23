@@ -140,8 +140,8 @@ export const footerData = {
         { text: 'Press', href: '#' },
         { text: 'Brand Kit', href: '#' },
         { text: 'Staking Reward', href: '#' },
-        { text: 'Rey Shop', href: '#' },
-        { text: 'Hub Shop', href: 'https://linktr.ee/reystaking', target: ' _blank' },
+        { text: 'Rey Shop', href: 'https://linktr.ee/reystaking', target: ' _blank'},
+       
       ],
     },
   ],
