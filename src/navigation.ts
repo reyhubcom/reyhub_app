@@ -141,7 +141,7 @@ export const footerData = {
         { text: 'Brand Kit', href: '#' },
         { text: 'Staking Reward', href: '#' },
         { text: 'Rey Shop', href: '#' },
-         actions: [{ text: 'Hub Shop', href: 'https://linktr.ee/reystaking', target: ' _blank' }],
+        { text: 'Hub Shop', href: 'https://linktr.ee/reystaking', target: ' _blank' },
       ],
     },
   ],
