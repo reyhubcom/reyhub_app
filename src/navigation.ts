@@ -53,8 +53,8 @@ export const headerData = {
           href: getPermalink('/dao'),
         },
         {
-          text: 'BOB Staking ',
-          href: getPermalink('/bob'),
+          text: 'Test Staking ',
+          href: getPermalink('/test'),
         },
         {
           text: 'Blockchain FX',
