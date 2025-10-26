@@ -83,8 +83,8 @@ export const headerData = {
           href: getPermalink('/lite'),
         },
         {
-          text: 'Exchange',
-          href: getPermalink('/exchange'),
+          text: 'All Protocol',
+          href: getPermalink('/allprotocol'),
         },
       ],
     },
